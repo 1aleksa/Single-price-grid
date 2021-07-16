@@ -1,0 +1,156 @@
+/* Tag selectors */
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  height: 800px;
+  margin: 0;
+  width: 1440px;
+}
+
+h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+/* Class selectors */
+
+.top-part {
+  border-radius: 10px 10px 0 0;
+  background-color: #ffffff;
+  display: flex;
+  height: 220px;
+  margin: 160px auto 0 auto;
+  width: 640px;
+}
+
+.description {
+  margin-left: 40px;
+  margin-right: 70px;
+  margin-top: 40px;
+}
+
+.description p {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.6;
+}
+
+.description h3 {
+  color: hsl(71, 73%, 54%);
+}
+
+.bottom-part {
+  display: flex;
+  height: 260px;
+  margin: 0 auto;
+  width: 640px;
+}
+
+.cards {
+  color: white;
+  flex: 1;
+}
+
+.left-card {
+  background-color: #2bb3b1;
+  border-radius: 0 0 0 10px;
+}
+
+.left-card p, button {
+  margin-left: 40px;
+  margin-top: 4px;
+}
+
+.left-card h3 {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.why-us {
+  color: #e7ffff;
+  font-size: 11px;
+  font-weight: lighter;
+}
+
+.price {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.right-card {
+  background-color: #4abebd;
+  border-radius: 0 0 10px 0;
+}
+
+.right-card p {
+  margin-left: 40px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.right-card h3 {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.sign-up {
+  border-style: none;
+  border-radius: 10px;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  height: 50px;
+  margin-top: 25px;
+  width: 245px;
+}
+
+/* Media selectors */
+
+@media all and (max-width:400px) {
+  body {
+    height: 870px;
+    width: 375px;
+  }
+  .top-part {
+    height: 270px;
+    margin: 70px auto 0 auto;
+    width: 310px;
+  }
+  .description {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 35px;
+  }
+  .description p {
+    line-height: 1;
+  }
+  .bottom-part {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 310px;
+  }
+  .left-card {
+    border-radius: 0;
+  }
+  .left-card h3 {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+  .left-card p, button {
+    margin-left: 25px;
+    margin-top: 4px;
+  }
+  .right-card {
+    border-radius: 0 0 10px 10px;
+  }
+  .right-card p {
+    margin-left: 25px;
+  }
+  .right-card h3 {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+}
